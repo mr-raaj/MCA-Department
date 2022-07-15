@@ -1,0 +1,31 @@
+
+        .container1{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 25px;
+            max-width: 1000px;
+            margin: auto;
+
+            
+        }
+        .photo-column{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .image{
+            margin-top: 10px;
+            width: 100%;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(12, 10, 10, 0.1);
+            transition: 0.25s;
+			
+            
+        }
+        .image:hover{
+            transform: scale(1.1);
+        }
+        body{
+            background-color: rgb(78, 78, 78);
+        }
+        
